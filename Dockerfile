@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM docker:latest
 
 ARG HELM_VERSION="v2.13.1"
 ARG CLOUD_SDK_VERSION=241.0.0
