@@ -8,6 +8,7 @@ ENV HELM_VERSION=$HELM_VERSION
 
 ENV PATH /google-cloud-sdk/bin:$PATH
 RUN apk --no-cache add \
+        make \
         bash \
         ca-certificates \
         curl \
